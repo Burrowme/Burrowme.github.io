@@ -10867,6 +10867,170 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -15rem;
   }
 }
+/* CSS STARTS HERE */
+
+/* Adjust the size of the text and other elements */
+.profile {
+  text-align: center;
+}
+
+#profile-name {
+  font-size: 1.2em; /* Adjust the font size */
+  margin: 0.5em 0; /* Adjust margin for spacing */
+  font-weight: bold;
+}
+
+.verbs {
+  color: green;
+  font-weight: bold; /* Make the text bold */
+  font-size: 1em; /* Reduce the font size */
+  margin: 0.3em 0; /* Adjust margin for spacing */
+}
+
+#extra-info {
+  font-size: 0.8em; /* Adjust the font size */
+  margin: 0.7em 0; /* Adjust margin for spacing */
+}
+
+.verbs:hover {
+  color: pink; /* Change text color to pink on hover */
+}
+
+.card {
+  max-width: 20%; /* Adjusted to a percentage for responsiveness */
+  margin: auto;
+  text-align: center;
+  position: fixed; /* Change position to fixed */
+  right: 5%; /* Position 5% from the right of the page */
+  top: 25%; /* Set the distance from the top of the page */
+  padding: 1em; /* Adjust padding to reduce height */
+  margin-bottom: 1px; /* Add margin to reduce height */
+  height: auto; /* Allow height to adjust based on content */
+  font-family: Monaco, monospace;
+  z-index: 1000; /* Ensure the card stays on top of everything */
+}
 
 
-/**START WEBSITE CSS HERE**\
+
+
+
+
+
+/* images */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+h4 {
+  text-align: center;
+  line-height: 80px;
+  font-weight: normal;
+}
+
+.masonry { /* Masonry container */
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+  margin: 1.5em;
+  padding: 0;
+  -moz-column-gap: 1.5em;
+  -webkit-column-gap: 1.5em;
+  column-gap: 1.5em;
+  font-size: .85em;
+}
+
+.item {
+  display: inline-block;
+  background: none; /* Remove background color */
+  padding: 1em;
+  margin: 0 0 1.5em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.item img {
+  max-width: 100%;
+  filter: blur(2px) saturate(50%); /* Add initial blur and brightness effect */
+  width: 100%; /* Ensure the image fills the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure the image is treated as a block element */
+  transition: filter 0.3s ease; /* Add transition effect for filter changes */
+}
+
+.item:hover img {
+  transform: scale(1.2);
+  filter: blur(0px) saturate(100%); /* Make the image slightly lighter */
+}
+
+
+.container {
+  display: flex;
+  font-family: Monaco, monospace;
+}
+
+.left-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.right-container {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.image {
+  border: 1px solid #ccc;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.header_body{
+  text-align: center;
+  font-size: 1rem;
+  color: grey;
+}
+
+.header_body:hover {
+  transform: scale(1.1);
+  color: #FF748C;
+  font-weight: bold;
+}
+
+.image:hover img {
+  transform: scale(1.1);
+}
+
